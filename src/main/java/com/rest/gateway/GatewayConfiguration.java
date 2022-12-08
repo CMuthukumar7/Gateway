@@ -59,7 +59,7 @@ public class GatewayConfiguration {
 
 		try {
 			printCiphers();
-			return new RestTemplate(/* getRequestFactory() */);
+			return new RestTemplate(getRequestFactory());
 		} catch (Exception e) {
 			e.printStackTrace();
 			return null;
