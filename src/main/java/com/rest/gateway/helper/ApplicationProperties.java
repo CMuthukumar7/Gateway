@@ -37,6 +37,11 @@ public class ApplicationProperties {
 		this.fabUrl = fabUrl;
 	}
 	
+	@Override
+	public String toString() {
+		return "ApplicationProperties [jksFileName=" + jksFileName + ", passCode=" + passCode + ", pathPattern="
+				+ pathPattern + ", fabUrl=" + fabUrl + "]";
+	}	
 	
 
 }
